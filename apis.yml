@@ -1,7 +1,23 @@
 aid: resonado-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/resonado-labs.png
 name: Resonado Labs
-description: Resonado Labs is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Resonado Labs is a high-velocity innovation and hardware development lab focused on
+  improving the acoustic performance of the next generation of audio products through speaker
+  hardware design and engineering. Backed by 500 Global, the company designs novel loudspeaker and
+  transducer technology for consumer electronics and audio OEMs. Resonado Labs is a hardware and
+  acoustics company; it publishes a marketing website but does not currently expose a public API,
+  developer portal, or machine-readable API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/resonado-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Audio
+- Acoustics
+- Hardware
+- Speakers
+- Consumer Electronics
+- Engineering
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/resonado-labs-domain-security.yml
 - type: Website
   url: https://resonado.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
